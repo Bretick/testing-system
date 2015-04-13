@@ -1,0 +1,538 @@
+<html>
+<head>
+<title>TestNG:  UCE02_TC01-zalozka-publikace</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UCE02_TC01-zalozka-publikace</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 27 20:45:45 CET 2011</td>
+</tr>
+<tr><td>Total time:</td><td>184 seconds (184521 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.AgendaLide.checkPublications()'><b>checkPublications</b><br>Test class: tests.AgendaLide<br>Test method: Checks specific person's publications.<br>Parameters: tests.AgendaLide$PublicationsTabData@c4ff15, File: .\data\publicationsTabData.xls, Row: 3<br/>
+<a href="#Output-24445931" onClick='toggleBox("Output-24445931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24445931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24445931">
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Open personal page "143320"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify page title "Osobní stránka"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify personal page by "uèo 143320"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on specific tab to show "#publikace"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for element "css=div#_publikace ul.vyhl_publ"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(0) div.publikace_zahlavi a" matches "A central repository of publication results, implemented as a part of systems for revealing plagiarism"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(0) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "A central repository of publication results, implemented as a part of systems for revealing plagiarism"</li><br/>
+<div style='background-color: #ffcccc; padding: 5px;'><table style='font-size: 90%;' border='0'><tr><td width='160'><a target='_blank' href='../../test-reports/screenshots/2011-12-27-20-47-14-screenshot-11.png'><img src='../../test-reports/screenshots/2011-12-27-20-47-14-screenshot-11.png' width='150' height='200' /></a></td><td>Failure on page (title, link):<br />A central repository of publication results, implemented as a part of systems for revealing ...<br /><a target='_blank' href='https://is.muni.cz/publication/956090/cs?lang=cs'>https://is.muni.cz/publication/956090/cs?lang=cs</a><br /><br />Screenshot saved at:<br /><a target='_blank' href='../../test-reports/screenshots/2011-12-27-20-47-14-screenshot-11.png'>../../test-reports/screenshots/2011-12-27-20-47-14-screenshot-11.png</a> <em>(local link, preview image)</em><br /><a target='_blank' href='../artifact/testng/test-reports/screenshots/2011-12-27-20-47-14-screenshot-11.png'>../artifact/testng/test-reports/screenshots/2011-12-27-20-47-14-screenshot-11.png</a> <em>(Jenkins link)</em></td></tr></table></div><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(1) div.publikace_zahlavi a" matches "E-learningovı portál Masarykovy univerzity"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(1) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "E-learningovı portál Masarykovy univerzity"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(2) div.publikace_zahlavi a" matches "Tvorba a zveøejòování e-publikací na Masarykovì univerzitì"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(2) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Tvorba a zveøejòování e-publikací na Masarykovì univerzitì"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(3) div.publikace_zahlavi a" matches "Institucionální repozitáø vìdeckıch a odbornıch èlánkù s napojením na systém odhalování plagiátù"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(3) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Institucionální repozitáø vìdeckıch a odbornıch èlánkù s napojením na systém odhalování plagiátù"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(4) div.publikace_zahlavi a" matches "Multimédia a interaktivní studijní materiály na MU"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(4) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Multimédia a interaktivní studijní materiály na MU"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(5) div.publikace_zahlavi a" matches "Vyuití nástrojù elektronického zkoušení IS MU pøi pøijímacích a státních závìreènıch zkouškách"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(5) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Vyuití nástrojù elektronického zkoušení IS MU pøi pøijímacích a státních závìreènıch zkouškách"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(6) div.publikace_zahlavi a" matches "E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information System of Masaryk University (IS MU)"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(6) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information System of Masaryk University (IS MU)"</li><br/>
+<div style='background-color: #ffcccc; padding: 5px;'><table style='font-size: 90%;' border='0'><tr><td width='160'><a target='_blank' href='../../test-reports/screenshots/2011-12-27-20-48-05-screenshot-12.png'><img src='../../test-reports/screenshots/2011-12-27-20-48-05-screenshot-12.png' width='150' height='200' /></a></td><td>Failure on page (title, link):<br />E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information ...<br /><a target='_blank' href='https://is.muni.cz/publication/868967/cs?lang=cs'>https://is.muni.cz/publication/868967/cs?lang=cs</a><br /><br />Screenshot saved at:<br /><a target='_blank' href='../../test-reports/screenshots/2011-12-27-20-48-05-screenshot-12.png'>../../test-reports/screenshots/2011-12-27-20-48-05-screenshot-12.png</a> <em>(local link, preview image)</em><br /><a target='_blank' href='../artifact/testng/test-reports/screenshots/2011-12-27-20-48-05-screenshot-12.png'>../artifact/testng/test-reports/screenshots/2011-12-27-20-48-05-screenshot-12.png</a> <em>(Jenkins link)</em></td></tr></table></div><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(7) div.publikace_zahlavi a" matches "Inteligentní Dril: studenti ménì opakují a více si pamatují"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(7) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Inteligentní Dril: studenti ménì opakují a více si pamatují"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(8) div.publikace_zahlavi a" matches "Odevzdej.cz: Odhalování plagiátù v seminárních pracích"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(8) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Odevzdej.cz: Odhalování plagiátù v seminárních pracích"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(9) div.publikace_zahlavi a" matches "Odha¾ovanie plagiátov v seminárnych prácach"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(9) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Odha¾ovanie plagiátov v seminárnych prácach"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(10) div.publikace_zahlavi a" matches "Odhalovat plagiáty se daøí díky spolupráci a odpovìdnosti vysokıch škol"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(10) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Odhalovat plagiáty se daøí díky spolupráci a odpovìdnosti vysokıch škol"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(11) div.publikace_zahlavi a" matches "Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy univerzity (IS MU)"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(11) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy univerzity (IS MU)"</li><br/>
+<div style='background-color: #ffcccc; padding: 5px;'><table style='font-size: 90%;' border='0'><tr><td width='160'><a target='_blank' href='../../test-reports/screenshots/2011-12-27-20-48-45-screenshot-13.png'><img src='../../test-reports/screenshots/2011-12-27-20-48-45-screenshot-13.png' width='150' height='200' /></a></td><td>Failure on page (title, link):<br />Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy ...<br /><a target='_blank' href='https://is.muni.cz/publication/860042/cs?lang=cs'>https://is.muni.cz/publication/860042/cs?lang=cs</a><br /><br />Screenshot saved at:<br /><a target='_blank' href='../../test-reports/screenshots/2011-12-27-20-48-45-screenshot-13.png'>../../test-reports/screenshots/2011-12-27-20-48-45-screenshot-13.png</a> <em>(local link, preview image)</em><br /><a target='_blank' href='../artifact/testng/test-reports/screenshots/2011-12-27-20-48-45-screenshot-13.png'>../artifact/testng/test-reports/screenshots/2011-12-27-20-48-45-screenshot-13.png</a> <em>(Jenkins link)</em></td></tr></table></div><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+</ol><div style='color: white; background: red; padding: 4px; margin-top: 15px;'><strong>FAILURE</strong></div></div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.Throwable: Multiple failures (3):
+
+Failure 1 of 3:
+java.lang.AssertionError: 
+
+Failure on page (title, link):
+A central repository of publication results, implemented as a part of systems for revealing ...
+https://is.muni.cz/publication/956090/cs?lang=cs
+
+Additional information:
+Verify that &quot;css=h1#nadpis&quot; matches &quot;A central repository of publication results, implemented as a part of systems for revealing plagiarism&quot;
+
+ expected:&lt;A central repository of publication results, implemented as a part of systems for revealing plagiarism&gt; but was:&lt;A central repository of publication results, implemented as a part of systems for revealing ...&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at tests.TestBase.assertEquals(TestBase.java:268)
+	at tests.TestBase.verifyEquals(TestBase.java:332)
+	at tests.AgendaLide.checkPublications(AgendaLide.java:523)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1035)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.TestNG.privateMain(TestNG.java:1182)
+	at org.testng.TestNG.main(TestNG.java:1146)
+
+
+
+Failure 2 of 3:
+java.lang.AssertionError: 
+
+Failure on page (title, link):
+E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information ...
+https://is.muni.cz/publication/868967/cs?lang=cs
+
+Additional information:
+Verify that &quot;css=h1#nadpis&quot; matches &quot;E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information System of Masaryk University (IS MU)&quot;
+
+ expected:&lt;E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information System of Masaryk University (IS MU)&gt; but was:&lt;E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information ...&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at tests.TestBase.assertEquals(TestBase.java:268)
+	at tests.TestBase.verifyEquals(TestBase.java:332)
+	at tests.AgendaLide.checkPublications(AgendaLide.java:523)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1035)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.TestNG.privateMain(TestNG.java:1182)
+	at org.testng.TestNG.main(TestNG.java:1146)
+
+
+
+Failure 3 of 3:
+java.lang.AssertionError: 
+
+Failure on page (title, link):
+Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy ...
+https://is.muni.cz/publication/860042/cs?lang=cs
+
+Additional information:
+Verify that &quot;css=h1#nadpis&quot; matches &quot;Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy univerzity (IS MU)&quot;
+
+ expected:&lt;Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy univerzity (IS MU)&gt; but was:&lt;Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy ...&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at tests.TestBase.assertEquals(TestBase.java:268)
+	at tests.TestBase.verifyEquals(TestBase.java:332)
+	at tests.AgendaLide.checkPublications(AgendaLide.java:523)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1035)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.TestNG.privateMain(TestNG.java:1182)
+	at org.testng.TestNG.main(TestNG.java:1146)
+</pre></div><a href='#' onClick='toggleBox("stack-trace24445931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace24445931'><pre>java.lang.Throwable: Multiple failures (3):
+
+Failure 1 of 3:
+java.lang.AssertionError: 
+
+Failure on page (title, link):
+A central repository of publication results, implemented as a part of systems for revealing ...
+https://is.muni.cz/publication/956090/cs?lang=cs
+
+Additional information:
+Verify that "css=h1#nadpis" matches "A central repository of publication results, implemented as a part of systems for revealing plagiarism"
+
+ expected:&lt;A central repository of publication results, implemented as a part of systems for revealing plagiarism&gt; but was:&lt;A central repository of publication results, implemented as a part of systems for revealing ...&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at tests.TestBase.assertEquals(TestBase.java:268)
+	at tests.TestBase.verifyEquals(TestBase.java:332)
+	at tests.AgendaLide.checkPublications(AgendaLide.java:523)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1035)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.TestNG.privateMain(TestNG.java:1182)
+	at org.testng.TestNG.main(TestNG.java:1146)
+
+
+
+Failure 2 of 3:
+java.lang.AssertionError: 
+
+Failure on page (title, link):
+E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information ...
+https://is.muni.cz/publication/868967/cs?lang=cs
+
+Additional information:
+Verify that "css=h1#nadpis" matches "E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information System of Masaryk University (IS MU)"
+
+ expected:&lt;E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information System of Masaryk University (IS MU)&gt; but was:&lt;E-learning 2.0, or Sharing Educational Contents and Specialized Knowledge by Means of Information ...&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at tests.TestBase.assertEquals(TestBase.java:268)
+	at tests.TestBase.verifyEquals(TestBase.java:332)
+	at tests.AgendaLide.checkPublications(AgendaLide.java:523)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1035)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.TestNG.privateMain(TestNG.java:1182)
+	at org.testng.TestNG.main(TestNG.java:1146)
+
+
+
+Failure 3 of 3:
+java.lang.AssertionError: 
+
+Failure on page (title, link):
+Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy ...
+https://is.muni.cz/publication/860042/cs?lang=cs
+
+Additional information:
+Verify that "css=h1#nadpis" matches "Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy univerzity (IS MU)"
+
+ expected:&lt;Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy univerzity (IS MU)&gt; but was:&lt;Plošná inovace pøedmìtù s vyuitím e-learningovıch nástrojù Informaèního systému Masarykovy ...&gt;
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:480)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at tests.TestBase.assertEquals(TestBase.java:268)
+	at tests.TestBase.verifyEquals(TestBase.java:332)
+	at tests.AgendaLide.checkPublications(AgendaLide.java:523)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:846)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1170)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1147)
+	at org.testng.TestRunner.privateRun(TestRunner.java:749)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:317)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:274)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:223)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1039)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1035)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:964)
+	at org.testng.TestNG.run(TestNG.java:900)
+	at org.testng.TestNG.privateMain(TestNG.java:1182)
+	at org.testng.TestNG.main(TestNG.java:1146)
+</pre></div></td>
+<td>102</td>
+<td>tests.AgendaLide@834e7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.AgendaLide.checkPublications()'><b>checkPublications</b><br>Test class: tests.AgendaLide<br>Test method: Checks specific person's publications.<br>Parameters: tests.AgendaLide$PublicationsTabData@28f3c7, File: .\data\publicationsTabData.xls, Row: 1<br/>
+<a href="#Output-7530628" onClick='toggleBox("Output-7530628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7530628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7530628">
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Open personal page "60675"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify page title "Osobní stránka"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify personal page by "uèo 60675"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on specific tab to show "#publikace"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for element "css=div#_publikace ul.vyhl_publ"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(0) div.publikace_zahlavi a" matches "Improving the Classification of Study-related Data through Social Network Analysis"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(0) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Improving the Classification of Study-related Data through Social Network Analysis"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(1) div.publikace_zahlavi a" matches "Access Rights in Enterprise Full-text Search"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(1) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Access Rights in Enterprise Full-text Search"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(2) div.publikace_zahlavi a" matches "Towards Text Mining in Technology-Enhanced Learning"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(2) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Towards Text Mining in Technology-Enhanced Learning"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(3) div.publikace_zahlavi a" matches "Vyhledávání"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(3) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Vyhledávání"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(4) div.publikace_zahlavi a" matches "Advantages of Versatile E-learning Tools"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(4) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Advantages of Versatile E-learning Tools"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(5) div.publikace_zahlavi a" matches "Absolventská sí"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(5) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Absolventská sí"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+</ol><div style='color: white; background: green; padding: 4px; margin-top: 15px;'><strong>SUCCES</strong></div></div><br/>
+<div id='E-vyskyt-konkretnich-udaju-iexplorer2011-12-27-20-46-42checkPublicationsmain@118829801-container' style='width: 98%; background: #e0e0e0; padding: 10px; margin-bottom: 10px;'><strong>checkPublications</strong> at [2011-12-27 20:46:42] with invocation order 1<br /><br />tests.AgendaLide.checkPublications(tests.AgendaLide$PublicationsTabData, java.lang.String, java.lang.String)<br /><em>Checks specific person's publications.</em><br /><br /><a href='#E-vyskyt-konkretnich-udaju-iexplorer2011-12-27-20-46-42checkPublicationsmain@118829801-container' onclick='showSolution("E-vyskyt-konkretnich-udaju-iexplorer2011-12-27-20-46-42checkPublicationsmain@118829801", this);'>Show/Hide test method steps</a><ol id='E-vyskyt-konkretnich-udaju-iexplorer2011-12-27-20-46-42checkPublicationsmain@118829801' style='display: none; margin: 0px; padding-left: 30px; margin-top: 10px;'><br/>
+</div>
+</td>
+<td></td>
+<td>57</td>
+<td>tests.AgendaLide@834e7</td></tr>
+<tr>
+<td title='tests.AgendaLide.checkPublications()'><b>checkPublications</b><br>Test class: tests.AgendaLide<br>Test method: Checks specific person's publications.<br>Parameters: tests.AgendaLide$PublicationsTabData@9ca370, File: .\data\publicationsTabData.xls, Row: 2<br/>
+<a href="#Output-26635544" onClick='toggleBox("Output-26635544", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26635544" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26635544">
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Open personal page "74369"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify page title "Osobní stránka"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify personal page by "uèo 74369"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on specific tab to show "#publikace"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for element "css=div#_publikace ul.vyhl_publ"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(0) div.publikace_zahlavi a" matches "Akademické knihovny a zmìny univerzitního prostøedí (1. èást)"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(0) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Akademické knihovny a zmìny univerzitního prostøedí (1. èást)"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(1) div.publikace_zahlavi a" matches "Pozice akademickıch knihoven ve vzdìlávacím procesu (2. èást)"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(1) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Pozice akademickıch knihoven ve vzdìlávacím procesu (2. èást)"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=div#_publikace ul.vyhl_publ>li:nth(2) div.publikace_zahlavi a" matches "Vybrané fenomény informaèního vìku formující novı vztah k vìdìní"</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Click on "css=div#_publikace ul.vyhl_publ>li:nth(2) div.publikace_zahlavi a"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Verify that "css=h1#nadpis" matches "Vybrané fenomény informaèního vìku formující novı vztah k vìdìní"</li><br/>
+<li style='background-color: #f8f8f8; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Go back</li><br/>
+<li style='background-color: #fcfcfc; padding: 4px; border-top: 1px solid #dbdbdb; font-size: 90%;'>Wait for page to load</li><br/>
+</ol><div style='color: white; background: green; padding: 4px; margin-top: 15px;'><strong>SUCCES</strong></div></div><br/>
+<div id='E-vyskyt-konkretnich-udaju-iexplorer2011-12-27-20-47-07checkPublicationsmain@118829802-container' style='width: 98%; background: #e0e0e0; padding: 10px; margin-bottom: 10px;'><strong>checkPublications</strong> at [2011-12-27 20:47:07] with invocation order 2<br /><br />tests.AgendaLide.checkPublications(tests.AgendaLide$PublicationsTabData, java.lang.String, java.lang.String)<br /><em>Checks specific person's publications.</em><br /><br /><a href='#E-vyskyt-konkretnich-udaju-iexplorer2011-12-27-20-47-07checkPublicationsmain@118829802-container' onclick='showSolution("E-vyskyt-konkretnich-udaju-iexplorer2011-12-27-20-47-07checkPublicationsmain@118829802", this);'>Show/Hide test method steps</a><ol id='E-vyskyt-konkretnich-udaju-iexplorer2011-12-27-20-47-07checkPublicationsmain@118829802' style='display: none; margin: 0px; padding-left: 30px; margin-top: 10px;'><br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>tests.AgendaLide@834e7</td></tr>
+</table><p>
+</body>
+</html>

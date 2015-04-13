@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1250" />
+<link rel="selenium.base" href="http://is.muni.cz/" />
+<title>UCC02_TC02</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">UCC02_TC02</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_C-vyhledavani-osob-maly-formular.pdf vs.1.0, update Břetislav Mazoch učo 325233-->
+<tr>
+	<td>open</td>
+	<td>/osoba/325233</td>
+	<td></td>
+</tr>
+<tr>
+	<td>check</td>
+	<td>css=div#maly_formular input#neaktivni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=div#maly_formular input#input_hledat</td>
+	<td>12341234</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=div#maly_formular input[name='hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div#aplikace h3</td>
+	<td>Nebyly nalezeny žádné osoby odpovídající zadání.</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div#aplikace p</td>
+	<td>Je možné, že osoba v systému existuje, ale nepřeje si zveřejnit svou Osobní stránku.</td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='12341234']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!-- Configuration file of testing suites, @author Bretislav Mazoch, bretick@mail.muni.cz, @version 2011-12-14-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suites definition" verbose="2"> 
+  <parameter name="baseUrl" value="http://is.muni.cz" />
+  <suite-files>
+    <suite-file path="./suites/E-vyskyt-konkretnich-udaju-firefox.xml" />
+    <suite-file path="./suites/E-vyskyt-konkretnich-udaju-iexplorer.xml" />
+  </suite-files> 
+</suite>
+
+
+
+
+

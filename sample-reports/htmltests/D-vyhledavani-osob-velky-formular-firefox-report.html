@@ -1,0 +1,2441 @@
+<html>
+<head><style type='text/css'>
+body, table {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+}
+
+.selected {
+    background-color: #ffffcc;
+}
+
+.status_done {
+    background-color: #eeffee;
+}
+
+.status_passed {
+    background-color: #ccffcc;
+}
+
+.status_failed {
+    background-color: #ffcccc;
+}
+
+.breakpoint {
+    background-color: #cccccc;
+    border: 1px solid black;
+}
+</style><title>Test suite results</title></head>
+<body>
+<h1>Test suite results </h1>
+
+<table>
+<tr>
+<td>result:</td>
+<td>failed</td>
+</tr>
+<tr>
+<td>totalTime:</td>
+<td>29</td>
+</tr>
+<tr>
+<td>numTestTotal:</td>
+<td>12</td>
+</tr>
+<tr>
+<td>numTestPasses:</td>
+<td>11</td>
+</tr>
+<tr>
+<td>numTestFailures:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>numCommandPasses:</td>
+<td>233</td>
+</tr>
+<tr>
+<td>numCommandFailures:</td>
+<td>17</td>
+</tr>
+<tr>
+<td>numCommandErrors:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Selenium Version:</td>
+<td>2.15</td>
+</tr>
+<tr>
+<td>Selenium Revision:</td>
+<td>.0</td>
+</tr>
+<tr>
+<td>
+<table id="suiteTable" class="selenium" border="1" cellpadding="1" cellspacing="1"><tbody>
+<tr class="title                 status_failed"><td><b>Test Suite</b></td></tr>
+<tr class="  status_passed"><td><a href="#testresult0">UCD01_TC01</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult1">UCD01_TC02</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult2">UCD01_TC03</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult3">UCD01_TC04</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult4">UCD01_TC05</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult5">UCD01_TC06</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult6">UCD01_TC07</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult7">UCD01_TC08</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult8">UCD02_TC01</a></td></tr>
+<tr class="  status_failed"><td><a href="#testresult9">UCD02_TC02</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult10">UCD02_TC03</a></td></tr>
+<tr class="  status_passed"><td><a href="#testresult11">UCD02_TC04</a></td></tr>
+</tbody></table>
+
+
+</td>
+<td>&nbsp;</td>
+</tr>
+</table><table><tr>
+<td><a name="testresult0">UCD01_TC01.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD01_TC01</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>nadpis</td>
+	<td>Lidé</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace h2</td>
+	<td>Vyhledávání osob</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>325233</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>status</td>
+	<td>u&#269;o 325233</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult1">UCD01_TC02.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD01_TC02</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>petra</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>click</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>waitForVisible</td>
+	<td>css=div.ac_results</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=div.ac_results&gt;ul&gt;li&gt;span:contains('44121')</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>status</td>
+	<td>u&#269;o 44121</td>
+</tr>
+
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult2">UCD01_TC03.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD01_TC03</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>b&#345;etislav</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementNotPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace&gt;p&gt;b</td>
+	<td>b&#345;etislav, jen mezi aktivními osobami</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>0</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>1</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='b&#345;etislav']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=div#aplikace ul&gt;li:contains('325233')&gt;a</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>status</td>
+	<td>u&#269;o 325233</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult3">UCD01_TC04.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD01_TC04</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>petra</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementNotPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=div#aplikace div.lista</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=div#aplikace div.lista a[href$='st=2']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace&gt;p&gt;b</td>
+	<td>petra, jen mezi aktivními osobami</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>0</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>1</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='petra']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=div#aplikace div.lista a[href$='st=2']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementNotPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=div#aplikace div.lista</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=div#aplikace div.lista a[href$='st=1']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=div#aplikace div.lista a[href$='st=3']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace&gt;p&gt;b</td>
+	<td>petra, jen mezi aktivními osobami</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>1</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='petra']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=div#aplikace ul&gt;li:contains('207190')&gt;a</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>status</td>
+	<td>u&#269;o 207190</td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult4">UCD01_TC05.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD01_TC05</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>petra</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementNotPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=div#aplikace div.lista</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace&gt;p&gt;b</td>
+	<td>petra, i mezi neaktivními osobami</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>0</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>1</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='petra']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult5">UCD01_TC06.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD01_TC06</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>petra</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementNotPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=div#aplikace div.lista</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace&gt;p&gt;b</td>
+	<td>petra, aktivní student, jen mezi aktivními osobami</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>0</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>1</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='petra']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult6">UCD01_TC07.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD01_TC07</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>petra</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementNotPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=div#aplikace div.lista</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace&gt;p&gt;b</td>
+	<td>petra, aktivní zam&#283;stnanec, jen mezi aktivními osobami</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>0</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>1</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='petra']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult7">UCD01_TC08.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD01_TC08</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>petra</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementNotPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=div#aplikace div.lista</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace&gt;p&gt;b</td>
+	<td>petra, omezení dle zvolených fakult, jen mezi aktivními osobami</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>0</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotCssCount</td>
+	<td>css=div#aplikace ul&gt;li</td>
+	<td>1</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='petra']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyNotChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult8">UCD02_TC01.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD02_TC01</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>abcd</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace div.varovani h3</td>
+	<td>Nebyly nalezeny ?ádné osoby odpovídající zadání abcd</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace div.varovani p</td>
+	<td>Je mo?né, ?e osoba v systému existuje, ale nep&#345;eje si zve&#345;ejnit svou Osobní stránku.</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='abcd']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult9">UCD02_TC02.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_failed"><td rowspan="1" colspan="3">UCD02_TC02</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>12341234</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace div.varovani h3</td>
+	<td>Nebyly nalezeny ?ádné osoby odpovídající zadání.</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace div.varovani p</td>
+	<td>Je mo?né, ?e osoba v systému existuje, ale nep&#345;eje si zve&#345;ejnit svou Osobní stránku.</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='12341234']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td>false</td>
+</tr>
+<tr class="  status_failed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td>false</td>
+</tr>
+
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult10">UCD02_TC03.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD02_TC03</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>type</td>
+	<td>css=form[name='osoba'] input#input_hledat</td>
+	<td>%</td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyText</td>
+	<td>css=div#aplikace div.varovani h3</td>
+	<td>Dotaz byl bu&#271; p&#345;íli? obecný nebo nebyl správn&#283; formulován -- zp&#345;esn&#283;te zadání, p&#345;ípadn&#283; pou?ijte správnou syntaxi.</td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='%']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr><tr>
+<td><a name="testresult11">UCD02_TC04.html</a><br/><div>
+<table border="1" cellpadding="1" cellspacing="1">
+<thead>
+<tr class="title status_passed"><td rowspan="1" colspan="3">UCD02_TC04</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document D-vyhledavani-osob-velky-formular.pdf vs.1.0, update B&#345;etislav Mazoch u&#269;o 325233-->
+<tr class="  status_done" style="cursor: pointer;">
+	<td>open</td>
+	<td>/lide/</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>check</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+<tr class="  status_done" style="cursor: pointer;">
+	<td>clickAndWait</td>
+	<td>css=form[name='osoba'] input[name='Hledat'][type='submit']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementNotPresent</td>
+	<td>css=div#aplikace div.varovani</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyVisible</td>
+	<td>css=form[name='osoba']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyElementPresent</td>
+	<td>css=form[name='osoba'] input#input_hledat[value='']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='zam']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='stud']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='neaktivni']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1411']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1421']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1422']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1423']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1431']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1433']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1441']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1456']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1451']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1490']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1499']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1481']</td>
+	<td></td>
+</tr>
+<tr class="  status_passed" style="cursor: pointer;">
+	<td>verifyChecked</td>
+	<td>css=form[name='osoba'] input[name='fakulty'][value='1492']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+
+
+</div></td>
+<td>&nbsp;</td>
+</tr></table><pre>
+info: Starting test /selenium-server/tests/UCD01_TC01.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |verifyText | nadpis | Lidé |
+info: Executing: |verifyText | css=div#aplikace h2 | Vyhledávání osob |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | 325233 |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyText | status | u&amp;#269;o 325233 |
+info: Starting test /selenium-server/tests/UCD01_TC02.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | petra |
+info: Executing: |click | css=form[name=&apos;osoba&apos;] input#input_hledat |  |
+info: Executing: |waitForVisible | css=div.ac_results |  |
+info: Executing: |clickAndWait | css=div.ac_results&gt;ul&gt;li&gt;span:contains(&apos;44121&apos;) |  |
+info: Executing: |verifyText | status | u&amp;#269;o 44121 |
+info: Starting test /selenium-server/tests/UCD01_TC03.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | b&amp;#345;etislav |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyElementNotPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyText | css=div#aplikace&gt;p&gt;b | b&amp;#345;etislav, jen mezi aktivními osobami |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 0 |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 1 |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;b&amp;#345;etislav&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Executing: |clickAndWait | css=div#aplikace ul&gt;li:contains(&apos;325233&apos;)&gt;a |  |
+info: Executing: |verifyText | status | u&amp;#269;o 325233 |
+info: Starting test /selenium-server/tests/UCD01_TC04.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | petra |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyElementNotPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=div#aplikace div.lista |  |
+info: Executing: |verifyElementPresent | css=div#aplikace div.lista a[href$=&apos;st=2&apos;] |  |
+info: Executing: |verifyText | css=div#aplikace&gt;p&gt;b | petra, jen mezi aktivními osobami |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 0 |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 1 |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;petra&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Executing: |clickAndWait | css=div#aplikace div.lista a[href$=&apos;st=2&apos;] |  |
+info: Executing: |verifyElementNotPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=div#aplikace div.lista |  |
+info: Executing: |verifyElementPresent | css=div#aplikace div.lista a[href$=&apos;st=1&apos;] |  |
+info: Executing: |verifyElementPresent | css=div#aplikace div.lista a[href$=&apos;st=3&apos;] |  |
+info: Executing: |verifyText | css=div#aplikace&gt;p&gt;b | petra, jen mezi aktivními osobami |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 1 |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;petra&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Executing: |clickAndWait | css=div#aplikace ul&gt;li:contains(&apos;207190&apos;)&gt;a |  |
+info: Executing: |verifyText | status | u&amp;#269;o 207190 |
+info: Starting test /selenium-server/tests/UCD01_TC05.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | petra |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyElementNotPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=div#aplikace div.lista |  |
+info: Executing: |verifyText | css=div#aplikace&gt;p&gt;b | petra, i mezi neaktivními osobami |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 0 |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 1 |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;petra&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Starting test /selenium-server/tests/UCD01_TC06.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | petra |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyElementNotPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=div#aplikace div.lista |  |
+info: Executing: |verifyText | css=div#aplikace&gt;p&gt;b | petra, aktivní student, jen mezi aktivními osobami |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 0 |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 1 |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;petra&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Starting test /selenium-server/tests/UCD01_TC07.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | petra |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyElementNotPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=div#aplikace div.lista |  |
+info: Executing: |verifyText | css=div#aplikace&gt;p&gt;b | petra, aktivní zam&amp;#283;stnanec, jen mezi aktivními osobami |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 0 |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 1 |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;petra&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Starting test /selenium-server/tests/UCD01_TC08.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | petra |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyElementNotPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=div#aplikace div.lista |  |
+info: Executing: |verifyText | css=div#aplikace&gt;p&gt;b | petra, omezení dle zvolených fakult, jen mezi aktivními osobami |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 0 |
+info: Executing: |verifyNotCssCount | css=div#aplikace ul&gt;li | 1 |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;petra&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyNotChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Starting test /selenium-server/tests/UCD02_TC01.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | abcd |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyText | css=div#aplikace div.varovani h3 | Nebyly nalezeny ?ádné osoby odpovídající zadání abcd |
+info: Executing: |verifyText | css=div#aplikace div.varovani p | Je mo?né, ?e osoba v systému existuje, ale nep&amp;#345;eje si zve&amp;#345;ejnit svou Osobní stránku. |
+info: Executing: |verifyElementPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;abcd&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Starting test /selenium-server/tests/UCD02_TC02.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | 12341234 |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyText | css=div#aplikace div.varovani h3 | Nebyly nalezeny ?ádné osoby odpovídající zadání. |
+info: Executing: |verifyText | css=div#aplikace div.varovani p | Je mo?né, ?e osoba v systému existuje, ale nep&amp;#345;eje si zve&amp;#345;ejnit svou Osobní stránku. |
+info: Executing: |verifyElementPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;12341234&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+warn: currentTest.recordFailure: false
+info: Starting test /selenium-server/tests/UCD02_TC03.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |type | css=form[name=&apos;osoba&apos;] input#input_hledat | % |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyText | css=div#aplikace div.varovani h3 | Dotaz byl bu&amp;#271; p&amp;#345;íli? obecný nebo nebyl správn&amp;#283; formulován -- zp&amp;#345;esn&amp;#283;te zadání, p&amp;#345;ípadn&amp;#283; pou?ijte správnou syntaxi. |
+info: Executing: |verifyElementPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;%&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Starting test /selenium-server/tests/UCD02_TC04.html
+info: Executing: |open | /lide/ |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |check | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+info: Executing: |clickAndWait | css=form[name=&apos;osoba&apos;] input[name=&apos;Hledat&apos;][type=&apos;submit&apos;] |  |
+info: Executing: |verifyElementNotPresent | css=div#aplikace div.varovani |  |
+info: Executing: |verifyVisible | css=form[name=&apos;osoba&apos;] |  |
+info: Executing: |verifyElementPresent | css=form[name=&apos;osoba&apos;] input#input_hledat[value=&apos;&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;zam&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;stud&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;neaktivni&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1411&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1421&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1422&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1423&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1431&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1433&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1441&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1456&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1451&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1490&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1499&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1481&apos;] |  |
+info: Executing: |verifyChecked | css=form[name=&apos;osoba&apos;] input[name=&apos;fakulty&apos;][value=&apos;1492&apos;] |  |
+</pre></body></html>

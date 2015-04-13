@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [E-vyskyt-konkretnich-udaju-firefox]">
+  <parameter name="baseUrl" value="http://is.muni.cz"/>
+  <parameter name="browserDriver" value="MOZILLA_FIREFOX"/>
+  <test name="UCE01_TC01-zalozka-skolitel(failed)" preserve-order="false">
+    <parameter name="baseUrl" value="http://is.muni.cz"/>
+    <parameter name="browserDriver" value="MOZILLA_FIREFOX"/>
+    <classes>
+      <class name="tests.AgendaLide">
+        <methods>
+          <include name="startSelenium"/>
+          <include name="checkRoleThesesSupervisor" invocation-numbers="2"/>
+          <include name="stopSelenium"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="UCE02_TC01-zalozka-publikace(failed)" preserve-order="false">
+    <parameter name="baseUrl" value="http://is.muni.cz"/>
+    <parameter name="browserDriver" value="MOZILLA_FIREFOX"/>
+    <classes>
+      <class name="tests.AgendaLide">
+        <methods>
+          <include name="startSelenium"/>
+          <include name="checkPublications" invocation-numbers="2"/>
+          <include name="stopSelenium"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

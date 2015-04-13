@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1250" />
+<link rel="selenium.base" href="http://is.muni.cz/" />
+<title>UCA02_TC02</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">UCA02_TC02</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_A-funkce-zalozek.pdf vs.1.0, update Břetislav Mazoch učo 325233-->
+<tr>
+	<td>open</td>
+	<td>/lide</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/osoba/45329#abcd</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>status</td>
+	<td>učo 45329</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=li#link_studium_pracoviste.aktivni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=li#link_vyuka.aktivni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=li#link_skolitel.aktivni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=li#link_cv.aktivni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=li#link_publikace.aktivni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=li#link_profil.aktivni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=li#link_vse.aktivni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>_studium_pracoviste</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>_studium_pracoviste</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_studium_pracoviste_strucne</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_vyuka</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_vyuka_strucne</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_skolitel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_skolitel_strucne</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_cv</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_cv_strucne</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_publikace</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_publikace_strucne</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_profil</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>_profil_strucne</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

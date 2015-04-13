@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1250" />
+<link rel="selenium.base" href="http://is.muni.cz/" />
+<title>UCB03_TC01</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">UCB03_TC01</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_B-prepinace-rozsirujicich-informaci.pdf vs.1.0, update Břetislav Mazoch učo 325233-->
+<tr>
+	<td>open</td>
+	<td>/lide</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/osoba/94</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a[href='#skolitel']</td>
+	<td></td>
+</tr>
+<!--older works as supervisor-->
+<tr>
+	<td>waitForVisible</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí') + dl + p&gt;a.rozbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí')&nbsp;&nbsp;+ dl + p&gt;a.rozbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí')&nbsp;&nbsp;+ dl + p&gt;a.sbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí')&nbsp;&nbsp;+ dl + p&gt;a.rozbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí')&nbsp;&nbsp;+ dl + p + dl._lide_mgrbc_prace_zbytek</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí')&nbsp;&nbsp;+ dl + p&gt;a.sbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí')&nbsp;&nbsp;+ dl + p&gt;a.rozbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí')&nbsp;&nbsp;+ dl + p&gt;a.sbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>css=div#_skolitel h5:contains('Vedoucí')&nbsp;&nbsp;+ dl + p + dl._lide_mgrbc_prace_zbytek</td>
+	<td></td>
+</tr>
+<!--older works as reader-->
+<tr>
+	<td>click</td>
+	<td>css=div#_skolitel h5:contains('Oponent')&nbsp;&nbsp;+ dl + p&gt;a.rozbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#_skolitel h5:contains('Oponent')&nbsp;&nbsp;+ dl + p&gt;a.sbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=div#_skolitel h5:contains('Oponent')&nbsp;&nbsp;+ dl + p&gt;a.rozbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>css=div#_skolitel h5:contains('Oponent')&nbsp;&nbsp;+ dl + p + dl._lide_mgrbc_prace_zbytek</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div#_skolitel h5:contains('Oponent')&nbsp;&nbsp;+ dl + p&gt;a.sbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div#_skolitel h5:contains('Oponent')&nbsp;&nbsp;+ dl + p&gt;a.rozbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=div#_skolitel h5:contains('Oponent')&nbsp;&nbsp;+ dl + p&gt;a.sbal</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>css=div#_skolitel h5:contains('Oponent')&nbsp;&nbsp;+ dl + p + dl._lide_mgrbc_prace_zbytek</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

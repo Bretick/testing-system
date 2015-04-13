@@ -1,0 +1,36 @@
+<!-- Configuration file of testing suite, based on document ts_E-vyskyt-konkretnich-udaju.pdf vs.1.0, @author Bretislav Mazoch, bretick@mail.muni.cz, @version 2011-12-14-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-vyskyt-konkretnich-udaju-iexplorer" verbose="2">
+	<!-- MOZILLA_FIREFOX, INTERNET_EXPLORER -->
+	<parameter name="browserDriver" value="INTERNET_EXPLORER" />	
+	
+	<test name="UCE01_TC01-zalozka-skolitel" preserve-order="true">	
+		<classes>
+	      <class name="tests.AgendaLide">
+	        <methods>
+	          <include name="checkRoleDoctoralStudents" />
+	          <include name="checkRoleDoctoralConsultant" />
+	          <include name="checkRoleThesesSupervisor" />
+	          <include name="checkRoleThesesReader" />
+	        </methods>
+	      </class>
+    	</classes>
+	</test>	
+
+	<test name="UCE02_TC01-zalozka-publikace">	
+		<classes>
+	      <class name="tests.AgendaLide">
+	        <methods>
+	          <include name="checkPublications" />
+	        </methods>
+	      </class>
+    	</classes>
+	</test>
+	
+</suite>
+
+
+
+
+
+	

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="WINDOWS-1250"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1250" />
+<link rel="selenium.base" href="http://is.muni.cz/" />
+<title>UCB01_TC01</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">UCB01_TC01</td></tr>
+</thead><tbody>
+<!--LAST REVISION 2011-08-30, based on document ts_B-prepinace-rozsirujicich-informaci.pdf vs.1.0, update Břetislav Mazoch učo 325233-->
+<tr>
+	<td>open</td>
+	<td>/lide</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/osoba/2660</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#foto img.sw</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>css=#foto img:nth(2)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>css=#foto img:nth(0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#foto img.sw</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyVisible</td>
+	<td>css=#foto img:nth(0)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyNotVisible</td>
+	<td>css=#foto img:nth(2)</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

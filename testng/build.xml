@@ -1,0 +1,80 @@
+<!-- Configuration file for building of testing project, @author Bretislav Mazoch, bretick@mail.muni.cz, @version 2011-12-14-->
+<project name="testautomation" default="run" basedir=".">
+
+
+	<property name="test.build.dir" value="bin" />
+	<property name="test.src.dir" value="src" />
+	<property name="testng.report.dir" value="test-reports" />
+	<property name="lib.dir" value="lib" />
+		
+	<tstamp>
+		<format property="now" pattern="yyyy-MM-dd HH:mm:ss" />
+	</tstamp>
+	
+	<path id="classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>	
+	
+	<target name="run">
+		<antcall target="compileTests" />
+		<antcall target="runTests" />
+		<antcall target="testngXsltReport" />
+	</target>	
+	
+	<target name="compileTests">
+		<echo>Compiling...</echo>
+		<!-- remove and create classes dir -->
+		<delete dir="${test.build.dir}" />
+		<mkdir dir="${test.build.dir}" />		
+		<!-- compile tests -->
+		<javac classpathref="classpath"
+			srcdir="${test.src.dir}"
+			destdir="${test.build.dir}" 
+			debug="true"
+			includeantruntime="false"
+			encoding="UTF-8" />
+	</target>	
+	
+	<taskdef resource="testngtasks" classpathref="classpath" />
+
+	<path id="runpath">
+		<path refid="classpath" />
+		<path location="config" />
+		<pathelement location="${test.build.dir}" />
+	</path>
+
+	<target name="runTests">
+		<echo>Running Tests...</echo>	
+		<!-- remove and create report dir -->
+		<delete dir="${testng.report.dir}" />
+		<mkdir dir="${testng.report.dir}" />
+		<!-- run tests and create default report -->
+		<testng classpathref="runpath"
+						outputdir="${testng.report.dir}" 
+		                listeners="tests.CustomTestListener">
+						<xmlfileset dir="${basedir}" includes="testng.xml" />
+		</testng>			
+	</target>	
+	
+    <target name="testngXsltReport">
+		<echo>Creating Testng-xslt report...</echo>	
+		<!-- remove and create Testng-xslt report dir -->
+    	<delete dir="${basedir}/${testng.report.dir}/testng-xslt"></delete>
+        <mkdir dir="${basedir}/${testng.report.dir}/testng-xslt"></mkdir>
+		<!-- transform default report -->    	
+        <xslt in="${basedir}/${testng.report.dir}/testng-results.xml" 
+        		style="${basedir}/testng-results.xsl" 
+        		out="${basedir}/${testng.report.dir}/testng-xslt/index.html"  
+        		processor="SaxonLiaison">        	
+        	<param expression="${basedir}/${testng.report.dir}/testng-xslt" name="testNgXslt.outputDir" />
+            <param expression="true" name="testNgXslt.sortTestCaseLinks" />
+            <param expression="true" name="testNgXslt.showRuntimeTotals" />
+            <param expression="FAIL,SKIP,PASS,CONF,BY_CLASS" name="testNgXslt.testDetailsFilter" />
+            <param expression="Test Report ${now}" name="testNgXslt.reportTitle" />
+            <classpath refid="classpath"></classpath>
+        </xslt>
+    </target>
+	
+</project>
