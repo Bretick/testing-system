@@ -8,18 +8,20 @@ The prototype is based on tools **Selenium**, **TestNG**, **Ant** and **Jenkins*
 
 About project
 --
-Sources are part of my final thesis from bachelor's studies at Masaryk University, the Faculty of Informatics.
+Sources of this project are part of my final thesis from Bachelor's studies at Masaryk University, the Faculty of Informatics.
 
-http://is.muni.cz/th/325233/fi_b/?furl=%2Fth%2F325233%2Ffi_b%2F;so=nx;lang=en
+**Web applications functional testing**
+http://is.muni.cz/th/325233/fi_b/
 
 *Abstract of the thesis*
+
 The intention of the work is to explore freely available tools to automate functional testing of web applications and then use a selected combination of tools for testing the agenda People of the Masaryk Univerzity Information System. Another intention lies on creation specific test suite of automated functional tests and designing a solution of independently executed testing system with e-mail notifications about results for included persons. For purpose of better understanding, there are also summarized methods and types of web applications testing.
 
 
 Description of source folders
 --
-- documents/ ............................. Test documentation
-- htmltests/ ............................... HTML Selenese test suites
+- documents/ .............................. Tests documentation
+- htmltests/ ................................. HTML Selenese test suites
 - jenkins-screens/ ...................... Screenshots of Jenkins settings
 - sample-reports/ ....................... Output reports from sample testing
 - testng/ ..................................... TestNG (JAVA) test suites
