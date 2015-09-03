@@ -14,7 +14,15 @@ Description of source folders
 - sample-reports/ ....................... Output reports from sample testing
 - testng/ ..................................... TestNG (JAVA) test suites
 
-
+**Shortcut to the most interesting files:**
+* Specific test plan<br /> 
+https://github.com/Bretick/testing-system/blob/master/documents/tp_01-agenda-lide.pdf
+* Example of test specification<br /> 
+https://github.com/Bretick/testing-system/blob/master/documents/tests-specification/ts_D-vyhledavani-osob-velky-formular.pdf
+* Selenium IDE test examples (HTML)<br /> 
+https://github.com/Bretick/testing-system/tree/master/htmltests
+* TestNG test examples (JAVA)<br /> 
+https://github.com/Bretick/testing-system/blob/master/testng/src/tests/AgendaLide.java
 
 Scheme of the stand-alone system
 --
